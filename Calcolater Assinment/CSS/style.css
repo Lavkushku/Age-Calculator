@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  #27a5d6;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 520px;
+    height: auto;
+    margin: 100px auto;
+    background-color: #eee;
+    border-radius: 20px;
+}
+.base {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+.block {
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+    -moz-float-edge: left;
+}
+.base h4 {
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    box-shadow: 0px 2px #c9131371;
+    background: white;
+    font-size: 34px;
+    color:darkblue;
+}
+.title {
+    font-size: 30px;
+    text-align: right;
+    font-family: sans-serif;
+    font-weight:normal;
+    line-height: 0.5;
+    letter-spacing: 2px;
+    word-spacing: 2.7px;
+    color: #177df1;
+}
+input[type="text"] {
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid #1073d0;
+    padding: 12px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    color: #1073d0;
+    font-size: 30px;
+}
+input[type="text"]:focus {
+    background-color: #ffffff;
+    border: 2px solid #5ef331;
+    border-radius: 10px;
+    outline: none;
+}
+input[type="button"] {
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border: 3px solid navy;
+    border-radius: 15px;
+    background-color: transparent;
+    color:rebeccapurple;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+input[type="button"]:hover {
+    background-color:royalblue;
+    color:whitesmoke;
+}
+#age {
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-family: verdana;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: #0c0cf3;
+}
+
+
+
+/*  */
+
+@media screen and (max-width: 780px) {
+    
+  
+    body{
+        background-color: #2782e3;
+    }
+    .container{
+        margin-right: 200px;
+        flex-direction: column;
+        
+    }
+  }
+
+ 
